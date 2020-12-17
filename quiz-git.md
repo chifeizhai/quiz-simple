@@ -9,7 +9,13 @@ Git 是一个广泛使用的版本管理工具，适合团队开发。
 
 请直接在这里作答。
 
-答：
+答： git clone 团队仓库地址
+     git branch 自己的分支
+     git checkout 自己的分支
+     git add .
+     git commit -m '自己的部分写完喽'
+     git checkout master
+     git merge 自己的分支
 
 ## Q2
 

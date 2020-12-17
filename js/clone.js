@@ -3,8 +3,21 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
+function clone(src) {
+  let result = Array.isArray(src) ? [] : {}
+  for(let key in src) {
+    if(typeof src[key] === 'object' && src[key] !== null) {
+      result [key] = clone(src[key])
+    } else {
+      result [key] = src[key]
+    }
+  }
+  return result
+}
 
 // * ---------------- 实现的效果：
+true
+true
 
 {
   const data = {

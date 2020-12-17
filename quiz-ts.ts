@@ -15,13 +15,16 @@ getData().then((e) => console.log(e));
 {
   // * TS 类型声明
   type MyObj = {
-    id: string;
-    name: string;
+    userId: Number,
+    id: Number,
+    title: string,
+    complete: Boolean
   };
 
   // * 最基本的 TS == JS 加上 类型
-  const getId = (obj: MyObj): string => obj.id;
+  const getUserId = (obj: MyObj): Number => obj.userId
+  const getId = (obj: MyObj): Number => obj.id
+  const getTitle = (obj: MyObj): string => obj.title
+  const getComplete = (obj: MyObj): Boolean => obj.complete
 
-  const id = getId({ id: 'user02', name: 'LC' });
-  console.log(id.startsWith('user'));
 }

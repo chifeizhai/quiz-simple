@@ -12,31 +12,31 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
+| npm            | 是 Node.js附带的包管理工具|
+| npx            | 是 Node.js调用项目内部安装模块的工具|
+| nvm            | 是 Node.js管理不同版本的 node 与 npm的工具|
+| nrm            | 是 Node.js切换不同仓储的工具|
+| yarn           | 是 Node.js附带的包管理工具|
+| React          | 是 一个javascript库|
+| Vue            | 是 一个JS框架|
 | Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
+| Mobx           | 是 一个全局状态管理工具|
+| MVVM           | 是 分离视图和模型的一个模式|
 | TDD            | 是 ……                |
 | Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
+| node_modules   | 是 存放JS安装包的文件夹|
+| package.json   | 是 定义项目依赖库和配置信息的文件|
+| ECMAScript     | 是 javascript的一种规范|
 | Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
+| Babel          | 是 转换语法的一个javascript编译器工具 |
+| Webpack        | 是 一种模块打包工具|
 | SSR            | 是 ……                |
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
 | PWA            | 是 ……                |
 | V8             | 是 ……                |
 | libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
+| Stack Overflow | 是 一个IT问答网站|
 | Deno           | 是 ……                |
 
 ## Q2
@@ -49,4 +49,4 @@
 > - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
 > - 掘金、知乎
 
-答：
+答：掘金、知乎、博客、新书、B站

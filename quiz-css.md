@@ -30,6 +30,15 @@ Demo 代码可以新建一个或多个文件（不限），
 }
 ```
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.container > div:nth-child(1) {
+  flex-grow: 1;;
+}
+
 ## Q2
 
 你用过哪些 CSS 的方法论和工具  
@@ -44,4 +53,4 @@ Demo 代码可以新建一个或多个文件（不限），
 > }
 > ```
 
-答：
+答：React的styled-components很好用，可以直接把css写在js文件里，用过的都说香
